@@ -1,0 +1,38 @@
+.logo img {
+    margin: 20px auto;
+    width: 20%;
+}
+
+.welcome {
+    display: flex;
+    justify-content: space-around;
+}
+
+.right img {
+    width: 90%;
+    margin: 2rem auto;
+}
+
+.welcome .left {
+    text-align: center;
+    font-size: xx-large;
+    color: var(--color-secondary);
+    font-family: 'Gideon Roman', cursive;
+}
+
+@media screen and (max-width: 1024px) {}
+
+@media screen and (max-width: 640px) {
+    .welcome {
+        flex-direction: column;
+    }
+
+    .right img {
+        width: 70%;
+        margin: 2rem auto;
+    }
+
+    .logo img {
+        width: 40%;
+    }
+}

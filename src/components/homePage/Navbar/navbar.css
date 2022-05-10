@@ -1,0 +1,14 @@
+.nav-area {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.nav-area a:hover {
+    color: var(--color-secondary);
+}
+
+.nav-area img {
+    width: 20px;
+}

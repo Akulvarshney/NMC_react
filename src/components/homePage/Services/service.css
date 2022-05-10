@@ -1,0 +1,42 @@
+.services {
+    display: flex;
+}
+
+.card {
+    width: 20%;
+    padding: 1rem;
+    margin: 2rem auto;
+    text-align: center;
+    background-color: #bacff0;
+}
+
+#services h1 {
+    margin: 2rem 0;
+}
+
+.card .icon {
+    font-size: 50px;
+    color: purple;
+}
+
+.card h3 {
+    color: var(--color-secondary);
+    margin-bottom: 2rem;
+    font-family: 'Old Standard TT', serif;
+}
+
+@media screen and (max-width: 1024px) {
+    /* .services {
+        flex-direction: column;
+    } */
+}
+
+@media screen and (max-width: 640px) {
+    .services {
+        flex-direction: column;
+    }
+
+    .card {
+        width: 70%;
+    }
+}
