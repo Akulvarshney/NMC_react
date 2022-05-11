@@ -1,0 +1,40 @@
+.numbers {
+    display: flex;
+    gap: 5rem;
+    margin-top: 3rem;
+    justify-content: center;
+}
+
+.card-confirmed {
+    padding: 1rem 2rem;
+    border-bottom: 3px solid;
+    border-color: blue;
+    box-shadow: -15px -15px 40px rgba(34, 0, 255, 0.479), 15px 15px 40px rgba(53, 47, 244, 0.509);
+}
+
+.card-recovered {
+    padding: 1rem 2rem;
+    border-bottom: 3px solid;
+    border-color: green;
+    box-shadow: -15px -15px 40px rgba(39, 227, 36, 0.479), 15px 15px 40px rgba(55, 213, 44, 0.509);
+}
+
+.card-deaths {
+    padding: 1rem 2rem;
+    border-bottom: 3px solid;
+    border-color: red;
+    box-shadow: -15px -15px 40px rgba(227, 36, 36, 0.479), 15px 15px 40px rgba(245, 50, 50, 0.509);
+}
+
+.date-track {
+    margin: 2rem 0;
+    text-align: center;
+}
+
+@media screen and (max-width: 640px) {
+
+    .numbers {
+        flex-direction: column;
+        margin: 3rem;
+    }
+}

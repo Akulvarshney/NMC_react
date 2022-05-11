@@ -12,15 +12,11 @@ const Navbar = () => {
   return (
     <div>
       <nav className="container">
-        <ul className="nav-area">
-          <li>
-            <Link to="/">NMC </Link>
-          </li>
-          <li>
-            <Link to="/tracker">Corona Tracker</Link>
-          </li>
+        <div className="nav-area">
+          <div className="left-nav">Light Mode</div>
           <img src={Moon} id="icon" alt="kuch" onClick={clicked} />
-        </ul>
+          <div className="right-nav">Dark Mode</div>
+        </div>
       </nav>
     </div>
   );

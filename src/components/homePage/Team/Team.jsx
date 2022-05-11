@@ -16,13 +16,13 @@ const Team = () => {
               <div className="img-box">
                 <img src={Akul} className="img-responsive" alt="kuch" />
                 <ul>
-                  <a href="https://www.facebook.com/">
+                  <a href="#">
                     <li>
                       <RiFacebookCircleFill />
                     </li>
                   </a>
 
-                  <a href="#">
+                  <a href="https://www.linkedin.com/in/akul-v-6a37bb110/">
                     <li>
                       <AiFillLinkedin />
                     </li>
@@ -43,7 +43,7 @@ const Team = () => {
                     </li>
                   </a>
 
-                  <a href="#">
+                  <a href="https://www.linkedin.com/in/adityansh-sharma-7646241a4/">
                     <li>
                       <AiFillLinkedin />
                     </li>

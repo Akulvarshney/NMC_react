@@ -5,6 +5,7 @@ import Navbar from "./components/homePage/Navbar/Navbar";
 import Service from "./components/homePage/Services/Service";
 import Team from "./components/homePage/Team/Team";
 import React from "react";
+import Tracker from "./components/covidTracker/Tracker";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Header />
       <Navbar />
       <Front />
+      <Tracker />
       <Service />
       <Team />
       <Footer />

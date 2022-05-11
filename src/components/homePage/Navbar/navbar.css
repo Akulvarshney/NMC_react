@@ -5,6 +5,14 @@
     gap: 20px;
 }
 
+.left-nav {
+    color: #161625;
+}
+
+.right-nav {
+    color: white;
+}
+
 .nav-area a:hover {
     color: var(--color-secondary);
 }
